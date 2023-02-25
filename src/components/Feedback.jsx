@@ -53,13 +53,13 @@ export default class Feedback extends Component {
     return (
       <div>
         <h1>Please leave feedback</h1>
-        <button type="button" onClick={this.addGood}>
+        <button className={css.button} type="button" onClick={this.addGood}>
           Good
         </button>
-        <button type="button" onClick={this.addNeutral}>
+        <button className={css.button} type="button" onClick={this.addNeutral}>
           Neutral
         </button>
-        <button type="button" onClick={this.addBad}>
+        <button className={css.button} type="button" onClick={this.addBad}>
           Bad
         </button>
         <h2>Statistics</h2>
