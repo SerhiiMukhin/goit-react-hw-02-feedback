@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from './FeedbackOptions.module.css'
-import clsx from "clsx"
+import css from './FeedbackOptions.module.css';
+import clsx from 'clsx';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <div className={css.wrapper}>

@@ -1,12 +1,12 @@
 .wrapper {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 16px;
 }
 
 .button {
   width: 100px;
   height: 40px;
-  padding: auto;
   background-color: #332cf2;
   opacity: .75;
   border: 0;
